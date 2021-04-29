@@ -1,0 +1,31 @@
+.footer {
+    background-color: var(--primary);
+    padding: 6.25rem 0;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: calc(min(1440px, 90%));
+}
+
+.footer-container .columns {
+    align-items: flex-start;
+}
+
+.icons img {
+    margin-right: 1rem;
+}
+
+@include sm {
+    .footer {
+        padding: 3.75rem 1rem;
+    }
+
+    .footer .col-1-4 {
+        margin-bottom: 1rem;
+    }
+
+    .footer-container {
+        width: auto;
+    }
+}

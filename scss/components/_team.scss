@@ -1,0 +1,15 @@
+.team {
+    align-items: flex-start;
+}
+
+.team-member {
+    min-height: 400px;
+
+    @include sm {
+        margin: auto;
+    }
+}
+
+.team-member img {
+    width: 100%;
+}
